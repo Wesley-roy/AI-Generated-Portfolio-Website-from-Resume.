@@ -1,1 +1,47 @@
 # AI-Generated-Portfolio-Website-from-Resume.
+
+# 🧠 AI Portfolio Generator
+
+An AI-powered Streamlit application that transforms your resume into a fully responsive personal portfolio website — instantly.
+
+Upload your **PDF or DOCX resume**, and the app uses **Google Gemini (via LangChain)** to analyze your resume and generate a complete **HTML, CSS, and JavaScript portfolio website**, bundled as a downloadable ZIP file.
+
+---
+
+## 🚀 Features
+
+- 📄 Upload resume in **PDF or DOCX** format
+- 🧠 AI-powered resume analysis using **Google Gemini**
+- 🌐 Automatically generates:
+  - `index.html`
+  - `style.css`
+  - `script.js`
+- 📦 One-click **ZIP download** of the complete website
+- 🎨 Modern, responsive portfolio layout
+- ⚡ Built with **Streamlit** for fast and interactive UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Python**
+- **Streamlit**
+- **LangChain**
+- **Google Gemini API**
+- **PyPDF2** (PDF parsing)
+- **python-docx** (DOCX parsing)
+- **dotenv** (environment variable management)
+
+---
+
+## 📁 Project Structure
+
+```text
+.
+├── portfolio.py          # Main Streamlit application
+├── index.html            # Generated portfolio HTML
+├── style.css             # Generated CSS styles
+├── script.js             # Generated JavaScript
+├── portfolio_website.zip # Downloadable website bundle
+├── .env                  # Environment variables (not committed)
+└── README.md
