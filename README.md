@@ -45,3 +45,35 @@ Upload your **PDF or DOCX resume**, and the app uses **Google Gemini (via LangCh
 ├── portfolio_website.zip # Downloadable website bundle
 ├── .env                  # Environment variables (not committed)
 └── README.md
+🔐 Environment Setup
+
+This app requires a Google Gemini API key.
+
+Create a .env file in the project root:
+
+gemini=YOUR_GOOGLE_API_KEY
+
+
+The app automatically loads the key using python-dotenv.
+
+📦 Installation
+git clone https://github.com/your-username/ai-portfolio-generator.git
+cd ai-portfolio-generator
+pip install -r requirements.txt
+
+
+Required packages:
+
+streamlit
+python-dotenv
+PyPDF2
+python-docx
+langchain-google-genai
+
+▶️ Run the App
+streamlit run portfolio.py
+
+
+Then open your browser at:
+
+http://localhost:8501
